@@ -32,6 +32,7 @@ namespace Sumar.Controllers
         }
 
         [HttpPost]
+        [Route("Multiply")]
         public int Mul2([FromHeader] int a, [FromHeader] int b)
         {
             return a * b;
